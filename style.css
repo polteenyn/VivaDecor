@@ -1,0 +1,312 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 400;
+    font-size: 24px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1510px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header_inner {
+    padding-top: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.menu__list-link {
+    color: #1F1F1F ;
+    font-weight: 400;
+}
+
+.menu__list-link--active {
+    color: black;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+.sign_up {
+    width: 176px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+.left_footer_text_list_item {
+    font-weight: 400;
+    font-size: 22px;
+    max-width: 322px;
+    margin-top: 51px;
+    margin-bottom: 70px;
+    margin-right: 246px;
+}
+
+.left_footer_text_list_link {
+    font-size: 22px;
+}
+
+.iconfooterblock {
+    display: flex;
+    gap: 26px;
+    padding-bottom: 115px;
+}
+
+.footer__menu-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer__menu-item {
+    font-size: 22px;
+}
+
+.footer_inner {
+    display: flex;
+}
+
+.footer__menu-list {
+    margin-top: 156px;
+}
+
+.footer__menu-title1 {
+    margin-right: 193px;
+    font-weight: 800;
+    margin-bottom: 45px;
+    white-space: nowrap;
+}
+
+.footer__menu-item {
+    margin-bottom: 34px;
+    font-size: 22px;
+}
+
+.footer__menu-title2 {
+    margin-right: 166px;
+    font-weight: 800;
+    margin-bottom: 45px;
+    white-space: nowrap;
+}
+
+.listfooterside {
+    display: flex;
+}
+
+.footer__menu-title3 {
+    font-weight: 800;
+    margin-bottom: 45px;
+    white-space: nowrap;
+}
+
+.blockmain__up {
+    display: flex;
+    margin-top: 133px;
+}
+
+.blockmain__up-title {
+    font-size: 133px;
+    margin-right: 78px;
+    margin-bottom: 42px;
+    white-space: nowrap;
+}
+
+.blockmain__up-text {
+    font-size: 24px;
+    width: 759px;
+}
+
+.blockmain__up-img {
+    width: 507px;
+    height: 426px;
+}
+
+.Startproject {
+    width: 302px;
+    height: 86px;
+    font-size: 24px;
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+.numar__main {
+    display: flex;
+    gap: 67px;
+}
+
+.numar__main-down {
+    text-align: center;
+    margin-top: 129px;
+}
+
+.ttitlenumar__main-down {
+    font-size: 70px;
+}
+
+.textnumar__main-down {
+    font-size: 22px;
+    margin-bottom: 235px;
+}
+
+.kwadrad__main-down {
+    width: 206px;
+    height: 187px;
+    position: absolute;
+    margin-left: 756px;
+    margin-top: -90px;
+}
+
+.blockmain__down-img {
+    width: 638px;
+    height: 406px;
+    position: absolute;
+    margin-left: 780px;
+    margin-top: -60px;
+    z-index: 5;
+}
+
+.title_blockmain2 {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    margin-bottom: 98px;
+}
+
+.hr-title__blockmain2 {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #1F1F1F;
+}
+
+.blockmain2-item {
+    width: 1510px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__blockmain2 {
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.textblockmain2 {
+    width: 359px;
+    height: 108px;
+    font-size: 22px;
+    margin-bottom: 240px;
+}
+
+.iconblockmain2 {
+    width: 72px;
+    height: 70px;
+}
+
+.titleblockmain2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
+.block3__item-img {
+    width: 711px;
+    height: 711px;
+}
+
+.block3__item-title{
+    width: 704px;
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.block3 {
+    display: flex;
+}
+
+.block3__item-img {
+    margin-right: 102px;
+    margin-bottom: 239px;
+}
+
+.block3__item-text {
+    width: 722px;
+    font-size: 24px;
+    margin-bottom: 86px;
+}
+
+.block3__item-sylka {
+    display: flex;
+    justify-content: space-between;
+    display: block;
+}
+
+.sylka {
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 361px;
+}
+
+.block3__item-sylka {
+    margin-bottom: 53px;
+}
+
+.hr-sylka {
+    border: 1px solid;
+    margin-top: 23px;
+}
+
+.Startproject2 {
+    width: 275px;
+    height: 80px;
+    font-size: 24px;
+    background-color: #1F1F1F;
+    color: #fff;
+    margin-top: 104px;
+}
