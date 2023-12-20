@@ -317,39 +317,6 @@ body {
     margin-top: 54px;
 }
 
-.accordion {
-    background-color: transparent;
-    color: #1F1F1F;
-    cursor: pointer;
-    font-size: 24px;
-    font-weight: 600;
-    border: none;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-  }
-  
-  .active, .accordion:hover {
-    color: #1F1F1F;
-  }
-  
-  .panel {
-    padding: 0 18px;
-    display: none;
-    background-color: none;
-    overflow: hidden;
-  }
-
-.block3__item-accordion{
-    display: flex;
-    justify-content: baseline;
-}
-
-.hr-accordion {
-    border: 1px solid;
-    margin-top: 23px;
-}
-
 .Startproject2 {
     width: 275px;
     height: 80px;
@@ -586,3 +553,38 @@ body {
     transition: 1ms;
 }
 
+.accordion {
+    background-color: transparent;
+    color: #1F1F1F;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    color: #1F1F1F;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: none;
+    overflow: hidden;
+  }
+
+.block3__item-accordion{
+    display: flex;
+    justify-content: baseline;
+}
+
+.hr-accordion {
+    border: 1px solid;
+    margin-top: 23px;
+}
+
+
+  
