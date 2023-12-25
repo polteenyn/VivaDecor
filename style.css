@@ -48,14 +48,18 @@ body {
 .header_inner {
     padding-top: 51px;
     display: flex;
-    justify-content: space-between;
+    width: auto;
+}
+
+.menu {
+    display: flex;
     align-items: center;
+    margin: auto;
 }
 
 .menu__list {
     display: flex;
     gap: 60px;
-    justify-content: center;
 }
 
 .menu__list-link {
@@ -71,6 +75,11 @@ body {
 .footer {
     background-color: #1F1F1F;
     color: #fff;
+}
+
+.logo_img {
+    margin-left: 10px;
+    margin: auto;
 }
 
 .sign_up {
@@ -126,6 +135,7 @@ body {
 
 .footer_inner {
     display: flex;
+    background-color: #1F1F1F;
 }
 
 .footer__menu-list {
@@ -153,8 +163,13 @@ body {
     color: #1F1F1F;
 }
 
+.footerside {
+    background-color: #1F1F1F;
+}
+
 .listfooterside {
     display: flex;
+    background-color: #1F1F1F;
 }
 
 .footer__menu-title3 {
@@ -185,6 +200,7 @@ body {
 .blockmain__up-img {
     width: 507px;
     height: 426px;
+    margin-left: 80px;
 }
 
 .Startproject {
@@ -225,7 +241,7 @@ body {
     width: 206px;
     height: 187px;
     position: absolute;
-    margin-left: 756px;
+    margin-left: 836px;
     margin-top: -90px;
 }
 
@@ -233,7 +249,7 @@ body {
     width: 638px;
     height: 406px;
     position: absolute;
-    margin-left: 780px;
+    margin-left: 860px;
     margin-top: -60px;
     z-index: 5;
 }
@@ -586,5 +602,25 @@ body {
     margin-top: 23px;
 }
 
+.container {
+    margin: auto;
+    min-width: 1440px;
+    max-width: 1600px;
+}
 
-  
+@media screen and (mix-width: 775px) {
+    .container {
+        max-width: 775px;
+        min-width: 420px;
+    }
+
+    .header_inner {
+        max-width: 775px;
+        min-width: 420px;
+    }
+
+    .footer_inner {
+        max-width: 775px;
+        min-width: 420px;
+    }
+}
